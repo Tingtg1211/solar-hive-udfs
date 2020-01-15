@@ -1,0 +1,1 @@
+CREATE TEMPORARY FUNCTION calc_prod AS 'com.envisioniot.hive.udfs.CalcProdUDAF' using jar 'hdfs://titan/user/eos_solar_dev/udfs/solar-hive-udfs-0.0.1-SNAPSHOT.jar';
